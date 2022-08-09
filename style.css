@@ -15,6 +15,7 @@ body {
     position: absolute;
     bottom: 10%;
     left: 5%;
+    /* background-color: aqua; */
 }
 
 .second_character {
@@ -23,4 +24,30 @@ body {
     bottom: 10%;
     right: 5%;
 }
+/* 
+<h6>↑ for Jump</h6>
+<h6>← for Walk Forward</h6>
+<h6>→ for Walk Backward</h6>
+<h6>Space Bar for Fire Ball</h6> */
 
+.first_player  {
+    margin-left: 10% !important;
+    margin-top: 10%;
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+.first_player:focus .first_player:active .first_player:hover {
+    border: none !important;
+}
+
+.second_player  {
+    margin-left: 50% !important;
+    margin-top: 10%;
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+.second_player:focus .second_player:active .second_player:hover {
+    border: none !important;
+}
